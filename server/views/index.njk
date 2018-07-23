@@ -1,0 +1,19 @@
+{% extends 'layout.njk' %}
+{% block content %}
+<style>
+    @keyframes rotate
+    {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+    }
+    .p:before{
+        content:'11';
+        display: block;
+    }
+    .p:before{
+        animation: rotate 1s infinite
+    }
+</style>
+<h1>{{title}}</h1>
+<p>Welcome use {{title}}</p>
+{% endblock %}
