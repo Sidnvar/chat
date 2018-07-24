@@ -22,8 +22,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  height: 100vh;
   color: #2c3e50;
   /* margin-top: 60px; */
+  background: #f3f3f3;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
